@@ -1,12 +1,13 @@
 body{
-background-color: #fff;
+background-color: #d1d5db;
 }
 
 .app{
     width: 1200px;
     margin: 0 auto;
     padding: 1rem;
-background:#fcfcfc;
+/* background:#64748b; */
+background-color: #334155;
 }
 .main__section{
     display: grid;
@@ -102,6 +103,7 @@ margin: 2rem;
     width: 100px;
     text-align: center;
     transition: all 0.3s linear;
+    background-color: #fff;
 }
 .nav-link:hover{
     background-color:gold;
@@ -111,7 +113,9 @@ margin: 2rem;
     background-color: gold;
 }
 .search__body{
-    background-color:#fcfcfc;
+    /* background-color:#fcfcfc; */
+background-color: #334155;
+
    
     width: 1170px;
     height: 165vh;
@@ -163,7 +167,7 @@ margin: 2rem;
         margin: 0;
     }
     #search__bar{
-        width: 274px;
+        width: 240px;
     }
     .nav-items{
       display: grid;
